@@ -1,17 +1,24 @@
 import './App.css';
-import HelloWorld from './components/HelloWorld';
+import HelloWorld from './components/HelloWorld'
+import SayMyName from './components/SayMyName'
+import Pessoa from './components/Pessoa'
+
 
 function App() {
-const nome = 'Marcos Lopes'
-const newName = nome.toUpperCase()
-const url = 'https://placeholder.com/150'
 
   return (
     <div className="App">
-      <h2>Alterando o JSX</h2>
-      <p> Olá, {newName}</p>
-      <img src={url} alt="Minha Imagem"/>
-      <HelloWorld/>
+
+      <HelloWorld />
+      <SayMyName nome="marcos Lopes" />
+      <SayMyName nome="Izabel" />
+      <Pessoa
+        
+        nome="Marcos Lopes"
+        idade='35'
+        profissão='progamador'
+        foto="https://via.placeholder.com/150" />
+
 
     </div>
   );
