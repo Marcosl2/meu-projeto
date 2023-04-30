@@ -13,7 +13,7 @@ function App() {
       <SayMyName nome="marcos Lopes" />
       <SayMyName nome="Izabel" />
       <Pessoa
-        
+
         nome="Marcos Lopes"
         idade='35'
         profissão='progamador'
